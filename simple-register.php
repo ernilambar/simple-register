@@ -12,7 +12,7 @@
  * Plugin Name: Simple Register
  * Plugin URI:
  * Description: Extend your registration form easily. Show Password, Full Name, etc in registration form!
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: Nilambar Sharma
  * Author URI: http://nilambar.net
  * Text Domain: simple-register
