@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: simple-register\n"
+"POT-Creation-Date: 2014-06-18 21:16+0545\n"
+"PO-Revision-Date: 2014-06-18 21:16+0545\n"
+"Last-Translator: Nilambar Sharma <nilambar@outlook.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../../simple-register\n"
+
+#: ../../simple-register/admin/class-simple-register-admin.php:103
+#: ../../simple-register/admin/class-simple-register-admin.php:104
+msgid "Simple Register"
+msgstr ""
+
+#: ../../simple-register/admin/class-simple-register-admin.php:130
+msgid "Settings"
+msgstr ""
+
+#: ../../simple-register/admin/class-simple-register-admin.php:147
+msgid "Simple Register Settings"
+msgstr ""
+
+#: ../../simple-register/admin/class-simple-register-admin.php:149
+msgid "Enable Simple Register"
+msgstr ""
+
+#: ../../simple-register/admin/class-simple-register-admin.php:153
+msgid "Fields Settings"
+msgstr ""
+
+#: ../../simple-register/admin/class-simple-register-admin.php:155
+#: ../../simple-register/public/class-simple-register.php:311
+msgid "Password"
+msgstr ""
+
+#: ../../simple-register/admin/class-simple-register-admin.php:157
+msgid "Full Name"
+msgstr ""
+
+#: ../../simple-register/admin/class-simple-register-admin.php:159
+#: ../../simple-register/public/class-simple-register.php:342
+msgid "Website"
+msgstr ""
+
+#: ../../simple-register/admin/class-simple-register-admin.php:161
+#: ../../simple-register/public/class-simple-register.php:351
+msgid "Bio"
+msgstr ""
+
+#: ../../simple-register/admin/class-simple-register-admin.php:185
+msgid "Change your Fields settings."
+msgstr ""
+
+#: ../../simple-register/admin/class-simple-register-admin.php:191
+#: ../../simple-register/admin/class-simple-register-admin.php:199
+#: ../../simple-register/admin/class-simple-register-admin.php:206
+#: ../../simple-register/admin/class-simple-register-admin.php:216
+#: ../../simple-register/admin/class-simple-register-admin.php:226
+msgid "Enable"
+msgstr ""
+
+#: ../../simple-register/admin/class-simple-register-admin.php:208
+#: ../../simple-register/admin/class-simple-register-admin.php:218
+#: ../../simple-register/admin/class-simple-register-admin.php:228
+msgid "Make Required"
+msgstr ""
+
+#: ../../simple-register/admin/views/admin.php:52
+msgid "Save Changes"
+msgstr ""
+
+#: ../../simple-register/public/class-simple-register.php:314
+#, php-format
+msgid ""
+"Password should be at least %d characters long. To make it stronger, use "
+"upper and lower case letters, numbers, and symbols like %s."
+msgstr ""
+
+#: ../../simple-register/public/class-simple-register.php:318
+msgid "Confirm Password"
+msgstr ""
+
+#: ../../simple-register/public/class-simple-register.php:327
+msgid "First Name"
+msgstr ""
+
+#: ../../simple-register/public/class-simple-register.php:333
+msgid "Last Name"
+msgstr ""
+
+#: ../../simple-register/public/class-simple-register.php:370
+#, php-format
+msgid "<strong>ERROR</strong>: Password must be at least %d characters long."
+msgstr ""
+
+#: ../../simple-register/public/class-simple-register.php:373
+msgid "<strong>ERROR</strong>: Passwords must be matched."
+msgstr ""
+
+#: ../../simple-register/public/class-simple-register.php:381
+msgid "<strong>ERROR</strong>: Please enter first name."
+msgstr ""
+
+#: ../../simple-register/public/class-simple-register.php:384
+msgid "<strong>ERROR</strong>: Please enter last name."
+msgstr ""
+
+#: ../../simple-register/public/class-simple-register.php:393
+msgid "<strong>ERROR</strong>: Please enter website."
+msgstr ""
+
+#: ../../simple-register/public/class-simple-register.php:402
+msgid "<strong>ERROR</strong>: Please enter bio."
+msgstr ""
+
+#: ../../simple-register/public/class-simple-register.php:463
+msgid ""
+"If you leave password fields empty, one will be generated for you and sent "
+"in your email."
+msgstr ""
