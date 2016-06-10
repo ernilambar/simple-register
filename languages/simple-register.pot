@@ -1,127 +1,147 @@
+# Copyright (C) 2016 Nilambar Sharma
+# This file is distributed under the GPL-2.0+.
 msgid ""
 msgstr ""
-"Project-Id-Version: simple-register\n"
+"Project-Id-Version: Simple Register 1.0.2\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-06-18 21:16+0545\n"
-"PO-Revision-Date: 2014-06-18 21:16+0545\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Nilambar Sharma <nilambar@outlook.com>\n"
 "Language-Team: \n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language: en_US\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
-"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
-"X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ../../simple-register\n"
 
-#: ../../simple-register/admin/class-simple-register-admin.php:103
-#: ../../simple-register/admin/class-simple-register-admin.php:104
+#. Plugin Name of the plugin/theme
 msgid "Simple Register"
 msgstr ""
 
-#: ../../simple-register/admin/class-simple-register-admin.php:130
+#: admin/class-simple-register-admin.php:130
 msgid "Settings"
 msgstr ""
 
-#: ../../simple-register/admin/class-simple-register-admin.php:147
+#: admin/class-simple-register-admin.php:147
 msgid "Simple Register Settings"
 msgstr ""
 
-#: ../../simple-register/admin/class-simple-register-admin.php:149
+#: admin/class-simple-register-admin.php:149
 msgid "Enable Simple Register"
 msgstr ""
 
-#: ../../simple-register/admin/class-simple-register-admin.php:153
+#: admin/class-simple-register-admin.php:153
 msgid "Fields Settings"
 msgstr ""
 
-#: ../../simple-register/admin/class-simple-register-admin.php:155
-#: ../../simple-register/public/class-simple-register.php:311
+#: admin/class-simple-register-admin.php:155
+#: public/class-simple-register.php:311
 msgid "Password"
 msgstr ""
 
-#: ../../simple-register/admin/class-simple-register-admin.php:157
+#: admin/class-simple-register-admin.php:157
 msgid "Full Name"
 msgstr ""
 
-#: ../../simple-register/admin/class-simple-register-admin.php:159
-#: ../../simple-register/public/class-simple-register.php:342
+#: admin/class-simple-register-admin.php:159
+#: public/class-simple-register.php:342
 msgid "Website"
 msgstr ""
 
-#: ../../simple-register/admin/class-simple-register-admin.php:161
-#: ../../simple-register/public/class-simple-register.php:351
+#: admin/class-simple-register-admin.php:161
+#: public/class-simple-register.php:351
 msgid "Bio"
 msgstr ""
 
-#: ../../simple-register/admin/class-simple-register-admin.php:185
+#: admin/class-simple-register-admin.php:185
 msgid "Change your Fields settings."
 msgstr ""
 
-#: ../../simple-register/admin/class-simple-register-admin.php:191
-#: ../../simple-register/admin/class-simple-register-admin.php:199
-#: ../../simple-register/admin/class-simple-register-admin.php:206
-#: ../../simple-register/admin/class-simple-register-admin.php:216
-#: ../../simple-register/admin/class-simple-register-admin.php:226
+#: admin/class-simple-register-admin.php:191
+#: admin/class-simple-register-admin.php:199
+#: admin/class-simple-register-admin.php:206
+#: admin/class-simple-register-admin.php:216
+#: admin/class-simple-register-admin.php:226
 msgid "Enable"
 msgstr ""
 
-#: ../../simple-register/admin/class-simple-register-admin.php:208
-#: ../../simple-register/admin/class-simple-register-admin.php:218
-#: ../../simple-register/admin/class-simple-register-admin.php:228
+#: admin/class-simple-register-admin.php:208
+#: admin/class-simple-register-admin.php:218
+#: admin/class-simple-register-admin.php:228
 msgid "Make Required"
 msgstr ""
 
-#: ../../simple-register/admin/views/admin.php:52
+#: admin/views/admin.php:52
 msgid "Save Changes"
 msgstr ""
 
-#: ../../simple-register/public/class-simple-register.php:314
-#, php-format
+#: public/class-simple-register.php:314
 msgid ""
 "Password should be at least %d characters long. To make it stronger, use "
 "upper and lower case letters, numbers, and symbols like %s."
 msgstr ""
 
-#: ../../simple-register/public/class-simple-register.php:318
+#: public/class-simple-register.php:318
 msgid "Confirm Password"
 msgstr ""
 
-#: ../../simple-register/public/class-simple-register.php:327
+#: public/class-simple-register.php:327
 msgid "First Name"
 msgstr ""
 
-#: ../../simple-register/public/class-simple-register.php:333
+#: public/class-simple-register.php:333
 msgid "Last Name"
 msgstr ""
 
-#: ../../simple-register/public/class-simple-register.php:370
-#, php-format
+#: public/class-simple-register.php:370
 msgid "<strong>ERROR</strong>: Password must be at least %d characters long."
 msgstr ""
 
-#: ../../simple-register/public/class-simple-register.php:373
+#: public/class-simple-register.php:373
 msgid "<strong>ERROR</strong>: Passwords must be matched."
 msgstr ""
 
-#: ../../simple-register/public/class-simple-register.php:381
+#: public/class-simple-register.php:381
 msgid "<strong>ERROR</strong>: Please enter first name."
 msgstr ""
 
-#: ../../simple-register/public/class-simple-register.php:384
+#: public/class-simple-register.php:384
 msgid "<strong>ERROR</strong>: Please enter last name."
 msgstr ""
 
-#: ../../simple-register/public/class-simple-register.php:393
+#: public/class-simple-register.php:393
 msgid "<strong>ERROR</strong>: Please enter website."
 msgstr ""
 
-#: ../../simple-register/public/class-simple-register.php:402
+#: public/class-simple-register.php:402
 msgid "<strong>ERROR</strong>: Please enter bio."
 msgstr ""
 
-#: ../../simple-register/public/class-simple-register.php:463
+#: public/class-simple-register.php:463
 msgid ""
 "If you leave password fields empty, one will be generated for you and sent "
 "in your email."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/simple-register/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Extend your registration form easily. Show Password, Full Name, etc in "
+"registration form!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Nilambar Sharma"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.nilambar.net"
 msgstr ""

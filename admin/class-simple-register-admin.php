@@ -100,8 +100,8 @@ class Simple_Register_Admin {
 		 * Add a settings page for this plugin to the Settings menu.
 		 */
 		$this->plugin_screen_hook_suffix = add_options_page(
-			__( 'Simple Register', $this->plugin_slug ),
-			__( 'Simple Register', $this->plugin_slug ),
+			__( 'Simple Register', 'simple-register' ),
+			__( 'Simple Register', 'simple-register' ),
 			'manage_options',
 			$this->plugin_slug,
 			array( $this, 'display_plugin_admin_page' )
@@ -127,7 +127,7 @@ class Simple_Register_Admin {
 
 		return array_merge(
 			array(
-				'settings' => '<a href="' . admin_url( 'options-general.php?page=' . $this->plugin_slug ) . '">' . __( 'Settings', $this->plugin_slug ) . '</a>'
+				'settings' => '<a href="' . admin_url( 'options-general.php?page=' . $this->plugin_slug ) . '">' . __( 'Settings', 'simple-register', 'simple-register' ) . '</a>'
 			),
 			$links
 		);
