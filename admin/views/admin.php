@@ -5,7 +5,7 @@
  * @package   Simple_Register
  * @author    Nilambar Sharma <nilambar@outlook.com>
  * @license   GPL-2.0+
- * @link      http://www.nilambar.net
+ * @link      http://nilambar.net
  * @copyright 2014 Nilambar Sharma
  */
 ?>

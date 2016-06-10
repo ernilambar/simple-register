@@ -5,7 +5,7 @@
  * @package   Simple_Register_Admin
  * @author    Nilambar Sharma <nilambar@outlook.com>
  * @license   GPL-2.0+
- * @link      http://www.nilambar.net
+ * @link      http://nilambar.net
  * @copyright 2014 Nilambar Sharma
  */
 
@@ -127,7 +127,7 @@ class Simple_Register_Admin {
 
 		return array_merge(
 			array(
-				'settings' => '<a href="' . admin_url( 'options-general.php?page=' . $this->plugin_slug ) . '">' . __( 'Settings', 'simple-register', 'simple-register' ) . '</a>'
+				'settings' => '<a href="' . admin_url( 'options-general.php?page=' . $this->plugin_slug ) . '">' . __( 'Settings', 'simple-register' ) . '</a>'
 			),
 			$links
 		);

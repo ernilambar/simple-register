@@ -5,20 +5,19 @@
  * @package   Simple_Register
  * @author    Nilambar Sharma <nilambar@outlook.com>
  * @license   GPL-2.0+
- * @link      http://www.nilambar.net
+ * @link      http://nilambar.net
  * @copyright 2014 Nilambar Sharma
  *
  * @wordpress-plugin
- * Plugin Name:       Simple Register
- * Plugin URI:        http://wordpress.org/plugins/simple-register/
- * Description:       Extend your registration form easily. Show Password, Full Name, etc in registration form!
- * Version:           1.0.2
- * Author:            Nilambar Sharma
- * Author URI:        http://www.nilambar.net
- * Text Domain:       simple-register
- * License:           GPL-2.0+
- * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Domain Path:       /languages
+ * Plugin Name: Simple Register
+ * Plugin URI:
+ * Description: Extend your registration form easily. Show Password, Full Name, etc in registration form!
+ * Version: 1.0.2
+ * Author: Nilambar Sharma
+ * Author URI: http://nilambar.net
+ * Text Domain: simple-register
+ * License: GPL-2.0+
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  */
 
 // If this file is called directly, abort.

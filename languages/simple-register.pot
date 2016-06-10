@@ -128,10 +128,6 @@ msgid ""
 "in your email."
 msgstr ""
 
-#. Plugin URI of the plugin/theme
-msgid "http://wordpress.org/plugins/simple-register/"
-msgstr ""
-
 #. Description of the plugin/theme
 msgid ""
 "Extend your registration form easily. Show Password, Full Name, etc in "
@@ -143,5 +139,5 @@ msgid "Nilambar Sharma"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "http://www.nilambar.net"
+msgid "http://nilambar.net"
 msgstr ""
