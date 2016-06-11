@@ -8,6 +8,7 @@
  * @link      http://nilambar.net
  * @copyright 2014 Nilambar Sharma
  */
+
 ?>
 <div class="wrap">
 
@@ -21,14 +22,14 @@
       <div id="post-body-content">
 
       <form action="options.php" method="post">
-        <?php settings_fields('sr-plugin-options-group'); ?>
+        <?php settings_fields( 'sr-plugin-options-group' ); ?>
 
           <div class="meta-box-sortables ui-sortable">
 
             <div class="postbox">
 
               <div class="inside">
-               <?php do_settings_sections('simple-register-general'); ?>
+				<?php do_settings_sections( 'simple-register-general' ); ?>
              </div> <!-- .inside -->
 
             </div> <!-- .postbox -->
@@ -40,7 +41,7 @@
             <div class="postbox">
 
              <div class="inside">
-               <?php do_settings_sections('simple-register-fields'); ?>
+				<?php do_settings_sections( 'simple-register-fields' ); ?>
              </div> <!-- .inside -->
 
             </div> <!-- .postbox -->
@@ -49,7 +50,7 @@
 
           </div> <!-- .meta-box-sortables .ui-sortable -->
 
-          <?php submit_button(__('Save Changes', 'simple-register')); ?>
+			<?php submit_button( __( 'Save Changes', 'simple-register' ) ); ?>
           </form>
 
       </div> <!-- post-body-content -->
@@ -57,7 +58,7 @@
       <!-- sidebar -->
       <div id="postbox-container-1" class="postbox-container">
 
-        <?php require_once( SIMPLE_REGISTER_DIR.'/admin/includes/admin-right.php'); ?>
+        <?php require_once( SIMPLE_REGISTER_DIR . '/admin/includes/admin-right.php' ); ?>
 
       </div> <!-- #postbox-container-1 .postbox-container -->
 

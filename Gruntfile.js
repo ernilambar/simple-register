@@ -11,7 +11,6 @@ module.exports = function( grunt ) {
 		'languages/**',
 		'public/**',
 		'readme.txt',
-		'index.php',
 		'<%= pkg.main_file %>',
 		'uninstall.php'
 	];
