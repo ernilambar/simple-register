@@ -1,14 +1,5 @@
 <?php
 /**
- * Simple Register.
- *
- * @package   Simple_Register
- * @author    Nilambar Sharma <nilambar@outlook.com>
- * @license   GPL-2.0+
- * @link      http://nilambar.net
- * @copyright 2014 Nilambar Sharma
- *
- * @wordpress-plugin
  * Plugin Name: Simple Register
  * Plugin URI:
  * Description: Extend your registration form easily. Show Password, Full Name, etc in registration form!
@@ -18,6 +9,8 @@
  * Text Domain: simple-register
  * License: GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+ *
+ * @package   Simple_Register
  */
 
 // If this file is called directly, abort.
@@ -28,10 +21,6 @@ if ( ! defined( 'WPINC' ) ) {
 define( 'SIMPLE_REGISTER_BASENAME', basename( dirname( __FILE__ ) ) );
 define( 'SIMPLE_REGISTER_DIR', rtrim( plugin_dir_path( __FILE__ ), '/' ) );
 define( 'SIMPLE_REGISTER_URL', rtrim( plugin_dir_url( __FILE__ ), '/' ) );
-
-/*----------------------------------------------------------------------------*
- * Public-Facing Functionality
- *----------------------------------------------------------------------------*/
 
 /*
  * Include main plugin class
@@ -49,10 +38,6 @@ register_deactivation_hook( __FILE__, array( 'Simple_Register', 'deactivate' ) )
  * Create instance of the plugin
  */
 add_action( 'plugins_loaded', array( 'Simple_Register', 'get_instance' ) );
-
-/*----------------------------------------------------------------------------*
- * Dashboard and Administrative Functionality
- *----------------------------------------------------------------------------*/
 
 /*
  * Include plugin admin class

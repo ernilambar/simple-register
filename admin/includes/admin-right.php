@@ -27,14 +27,13 @@
 				<li><a href="http://wordpress.org/themes/buntu" target="_blank">Buntu</a></li>
 				<li><a href="http://wordpress.org/themes/simple-life" target="_blank">Simple Life</a></li>
 			</ul>
-
 			<p><strong>WordPress Plugins</strong></p>
 			<ul>
-				<li><a href="http://wordpress.org/plugins/admin-customizer/" target="_blank">Admin Customizer</a></li>
-				<li><a href="http://wordpress.org/plugins/really-simple-image-widget/" target="_blank">Really Simple Image Widget</a></li>
 				<li><a href="http://wordpress.org/plugins/ns-featured-posts/" target="_blank">NS Featured Posts</a></li>
+				<li><a href="http://wordpress.org/plugins/really-simple-image-widget/" target="_blank">Really Simple Image Widget</a></li>
+				<li><a href="https://wordpress.org/plugins/woocommerce-product-tabs/" target="_blank">Woocommerce Product Tabs</a></li>
 				<li><a href="http://wordpress.org/plugins/ns-category-widget/" target="_blank">NS Category Widget</a></li>
-				<li><a href="http://wordpress.org/plugins/date-today-nepali/" target="_blank">Date Today Nepali</a></li>
+				<li><a href="https://wordpress.org/plugins/source-affix/" target="_blank">Source Affix</a></li>
 			</ul>
 	</div> <!-- .inside -->
 

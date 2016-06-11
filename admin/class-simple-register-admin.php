@@ -64,10 +64,6 @@ class Simple_Register_Admin {
 		$plugin_basename = plugin_basename( plugin_dir_path( realpath( dirname( __FILE__ ) ) ) . $this->plugin_slug . '.php' );
 		add_filter( 'plugin_action_links_' . $plugin_basename, array( $this, 'add_action_links' ) );
 
-		/*
-		 * Define custom functionality.
-		 */
-
 		add_action('admin_init', array($this, 'plugin_register_settings'));
 
 	}

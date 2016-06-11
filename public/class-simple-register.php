@@ -2,18 +2,11 @@
 /**
  * Simple Register.
  *
- * @package   Simple_Register
- * @author    Nilambar Sharma <nilambar@outlook.com>
- * @license   GPL-2.0+
- * @link      http://nilambar.net
- * @copyright 2014 Nilambar Sharma
+ * @package Simple_Register
  */
 
 /**
- * Plugin class
- *
- * @package Simple_Register
- * @author  Nilambar Sharma <nilambar@outlook.com>
+ * Plugin class.
  */
 class Simple_Register {
 
@@ -24,7 +17,7 @@ class Simple_Register {
 	 *
 	 * @var     string
 	 */
-	const VERSION = '1.0.2';
+	const VERSION = '1.0.3';
 
 	/**
 	 * Unique identifier of the plugin.
@@ -288,11 +281,7 @@ class Simple_Register {
 	 */
 	public function load_plugin_textdomain() {
 
-		$domain = $this->plugin_slug;
-		$locale = apply_filters( 'plugin_locale', get_locale(), $domain );
-
-		load_textdomain( $domain, trailingslashit( WP_LANG_DIR ) . $domain . '/' . $domain . '-' . $locale . '.mo' );
-		load_plugin_textdomain( $domain, FALSE, basename( plugin_dir_path( dirname( __FILE__ ) ) ) . '/languages/' );
+		load_plugin_textdomain( $this->plugin_slug );
 
 	}
 
@@ -498,8 +487,6 @@ class Simple_Register {
 		return $this->options;
 	}
 
-	// Private STARTS
-
 	/**
 	 * Populate current options.
 	 *
@@ -520,7 +507,5 @@ class Simple_Register {
           update_option( self :: $plugin_option_name, self :: $default_options);
       }
   }
-	// Private ENDS
-
 
 }
