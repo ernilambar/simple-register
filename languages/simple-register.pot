@@ -23,106 +23,106 @@ msgstr ""
 msgid "Simple Register"
 msgstr ""
 
-#: admin/class-simple-register-admin.php:130
+#: admin/class-simple-register-admin.php:126
 msgid "Settings"
 msgstr ""
 
-#: admin/class-simple-register-admin.php:147
+#: admin/class-simple-register-admin.php:143
 msgid "Simple Register Settings"
 msgstr ""
 
-#: admin/class-simple-register-admin.php:149
+#: admin/class-simple-register-admin.php:145
 msgid "Enable Simple Register"
 msgstr ""
 
-#: admin/class-simple-register-admin.php:153
+#: admin/class-simple-register-admin.php:149
 msgid "Fields Settings"
 msgstr ""
 
-#: admin/class-simple-register-admin.php:155
-#: public/class-simple-register.php:311
+#: admin/class-simple-register-admin.php:151
+#: public/class-simple-register.php:300
 msgid "Password"
 msgstr ""
 
-#: admin/class-simple-register-admin.php:157
+#: admin/class-simple-register-admin.php:153
 msgid "Full Name"
 msgstr ""
 
-#: admin/class-simple-register-admin.php:159
-#: public/class-simple-register.php:342
+#: admin/class-simple-register-admin.php:155
+#: public/class-simple-register.php:331
 msgid "Website"
 msgstr ""
 
-#: admin/class-simple-register-admin.php:161
-#: public/class-simple-register.php:351
+#: admin/class-simple-register-admin.php:157
+#: public/class-simple-register.php:340
 msgid "Bio"
 msgstr ""
 
-#: admin/class-simple-register-admin.php:185
+#: admin/class-simple-register-admin.php:181
 msgid "Change your Fields settings."
 msgstr ""
 
-#: admin/class-simple-register-admin.php:191
-#: admin/class-simple-register-admin.php:199
-#: admin/class-simple-register-admin.php:206
-#: admin/class-simple-register-admin.php:216
-#: admin/class-simple-register-admin.php:226
+#: admin/class-simple-register-admin.php:187
+#: admin/class-simple-register-admin.php:195
+#: admin/class-simple-register-admin.php:202
+#: admin/class-simple-register-admin.php:212
+#: admin/class-simple-register-admin.php:222
 msgid "Enable"
 msgstr ""
 
-#: admin/class-simple-register-admin.php:208
-#: admin/class-simple-register-admin.php:218
-#: admin/class-simple-register-admin.php:228
+#: admin/class-simple-register-admin.php:204
+#: admin/class-simple-register-admin.php:214
+#: admin/class-simple-register-admin.php:224
 msgid "Make Required"
 msgstr ""
 
-#: admin/views/admin.php:52
+#: admin/views/admin.php:53
 msgid "Save Changes"
 msgstr ""
 
-#: public/class-simple-register.php:314
+#: public/class-simple-register.php:303
 msgid ""
 "Password should be at least %d characters long. To make it stronger, use "
 "upper and lower case letters, numbers, and symbols like %s."
 msgstr ""
 
-#: public/class-simple-register.php:318
+#: public/class-simple-register.php:307
 msgid "Confirm Password"
 msgstr ""
 
-#: public/class-simple-register.php:327
+#: public/class-simple-register.php:316
 msgid "First Name"
 msgstr ""
 
-#: public/class-simple-register.php:333
+#: public/class-simple-register.php:322
 msgid "Last Name"
 msgstr ""
 
-#: public/class-simple-register.php:370
+#: public/class-simple-register.php:359
 msgid "<strong>ERROR</strong>: Password must be at least %d characters long."
 msgstr ""
 
-#: public/class-simple-register.php:373
+#: public/class-simple-register.php:362
 msgid "<strong>ERROR</strong>: Passwords must be matched."
 msgstr ""
 
-#: public/class-simple-register.php:381
+#: public/class-simple-register.php:370
 msgid "<strong>ERROR</strong>: Please enter first name."
 msgstr ""
 
-#: public/class-simple-register.php:384
+#: public/class-simple-register.php:373
 msgid "<strong>ERROR</strong>: Please enter last name."
 msgstr ""
 
-#: public/class-simple-register.php:393
+#: public/class-simple-register.php:382
 msgid "<strong>ERROR</strong>: Please enter website."
 msgstr ""
 
-#: public/class-simple-register.php:402
+#: public/class-simple-register.php:391
 msgid "<strong>ERROR</strong>: Please enter bio."
 msgstr ""
 
-#: public/class-simple-register.php:463
+#: public/class-simple-register.php:452
 msgid ""
 "If you leave password fields empty, one will be generated for you and sent "
 "in your email."
