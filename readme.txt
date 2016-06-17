@@ -1,9 +1,9 @@
 === Simple Register ===
 Contributors: rabmalin
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ramrojob1%40gmail%2ecom&lc=US&item_name=Nilambar%20Sharma&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
+Donate link: http://nilambar.net
 Tags: registration, user, password, plugin, profile
 Requires at least: 4.0
-Tested up to: 4.5
+Tested up to: 4.5.2
 Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,7 +12,7 @@ A plugin for extending your registration form
 
 == Description ==
 
-<h3>This plugin is no longer being updated. Please feel free to adopt me! </h3>
+<h3>This plugin is no longer being updated. Please feel free to adopt me!</h3>
 Simple Register is a simple plugin for adding extra fields like Password, First Name, Last Name, Bio, etc in your registration form. You can make fields required so that field must be filled up. Password field, if enabled, will be automatically a required field. Works nicely with 'Theme My Login' plugin.
 
 If you like this plugin, please [rate and review](http://wordpress.org/support/view/plugin-reviews/simple-register).
